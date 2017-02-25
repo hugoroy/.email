@@ -1,0 +1,27 @@
+[general]
+metadata = ~/.email/offlineimap
+pythonfile = ~/.email/offlineimap/gnome-keyring-query.py
+accounts = ampoliros
+maxsyncaccounts = 1
+socktimeout = 70
+fsync = false
+
+[Account ampoliros]
+localrepository = ampoliros.local
+remoterepository = ampoliros.remote
+autorefresh = 11
+#postsynchook = notmuch new && afew --move-mails --all --verbose
+
+[Repository ampoliros.local]
+type = Maildir
+localfolders = ~/.email/imap/ampoliros
+
+[Repository ampoliros.remote]
+type = IMAP
+remotehost = DOMAIN
+remoteuser = hugo@DOMAIN
+remotepasseval = get_password("edge-ampoliros-pass")
+ssl = yes
+cert_fingerprint = 3bb8c6c9b0187bfc9984dd15eec71df1bc43206b
+maxconnections = 3
+
