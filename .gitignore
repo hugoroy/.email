@@ -2,3 +2,5 @@ imap/
 netrc
 offlineimap/Account*
 offlineimap/Repository*
+offlineimap/gnome-keyring-query.pyc
+*.save
