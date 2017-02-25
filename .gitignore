@@ -1,2 +1,4 @@
 imap/
 netrc
+offlineimap/Account*
+offlineimap/Repository*
