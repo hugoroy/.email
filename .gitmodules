@@ -1,3 +1,6 @@
 [submodule "astroid"]
 	path = astroid
 	url = https://github.com/hugoroy/.astroid
+[submodule ".astroid"]
+	path = .astroid
+	url = git@github.com:hugoroy/.astroid.git
