@@ -1,0 +1,14 @@
+# This is the default filter chain
+[SpamFilter]
+#[ClassifyingFilter]
+#[KillThreadsFilter]
+[ListMailsFilter]
+#[ArchiveSentMailsFilter]
+#[InboxFilter]
+[MailMover]
+folders = ampoliros/INBOX
+max_age = 10
+
+# rules
+ampoliros/INBOX = 'tag:spam':ampoliros/Spam 
+#'NOT tag:inbox':ampoliros/Archive.2017
