@@ -1,0 +1,3 @@
+[submodule "astroid"]
+	path = astroid
+	url = https://github.com/hugoroy/.astroid
