@@ -24,6 +24,4 @@ remotepasseval = get_password("edge-ampoliros-pass")
 starttls = yes
 ssl = yes
 cert_fingerprint = 3bb8c6c9b0187bfc9984dd15eec71df1bc43206b
-maxconnections = 3
-idlefolders = ['INBOX']
-maxconnections = 2
+#idlefolders = ['INBOX'] 
