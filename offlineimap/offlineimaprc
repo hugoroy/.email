@@ -8,7 +8,7 @@ fsync = false
 [Account ampoliros]
 localrepository = ampoliros.local
 remoterepository = ampoliros.remote
-autorefresh = 11
+autorefresh = 25
 quick = -1
 #postsynchook = notmuch new && afew --move-mails --all --verbose
 
